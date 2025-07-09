@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="com_Luma_Utilities.Reports"></listener>
+</listeners>
+<parameter name="browser" value="Chrome"></parameter>
+<parameter name="URL" value="https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/#google_vignette"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com_Luma_TestCases.Tc_01_Luma_Registration"/> 
+     <!--  <class name="com_Luma_TestCases.Tc_02_Luma_Login"></class> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

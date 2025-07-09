@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 74.787 sec <<< FAILURE! - in TestSuite
+lumaRegistrationPage(com_Luma_TestCases.Tc_01_Luma_Registration)  Time elapsed: 36.733 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com_Luma_TestCases.Tc_01_Luma_Registration.lumaRegistrationPage(Tc_01_Luma_Registration.java:50)
+
