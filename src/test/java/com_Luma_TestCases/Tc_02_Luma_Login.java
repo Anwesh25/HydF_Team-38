@@ -21,6 +21,7 @@ public class Tc_02_Luma_Login extends Luma_BaseClass{
 		Thread.sleep(2000);
 		ll.clearpassword();
 		Thread.sleep(2000);
+		//als
 	}
 	@DataProvider(name="Luma")
 	String [][]getData() throws IOException{
